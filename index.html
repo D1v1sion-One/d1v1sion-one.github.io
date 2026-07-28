@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VUDRA</title>
+    <link href="templatemo-nexus-style.css" rel="stylesheet" />
+    <!--
+
+TemplateMo 594 nexus flow
+
+https://templatemo.com/tm-594-nexus-flow
+
+-->
+  </head>
+  <body id="top">
+    <!-- Enhanced Background Elements -->
+    <div class="cyber-bg">
+      <div class="cyber-gradient"></div>
+      <div class="matrix-rain" id="matrixRain"></div>
+    </div>
+
+    <div class="particles" id="particlesContainer"></div>
+
+    <div class="data-streams" id="dataStreams"></div>
+
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <div class="grid-overlay">
+      <div class="grid-lines"></div>
+      <div class="grid-glow"></div>
+    </div>
+
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <a href="#top" class="logo">VUDRA</a>
+        <button class="mobile-menu-button" id="mobileMenuBtn">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="hero-title">
+          <span class="hero-nexus">VU</span><span class="hero-flow">DRA</span>
+        </h1>
+        <p class="hero-subtitle">
+          V–Vulnerability U–Understanding D–Detection R–Remediation A–Agent
+        </p>
+        <div class="hero-buttons">
+          <!-- <a href="#" class="btn-primary">Get Started</a> -->
+          <button onclick="scrollToTheButtom()" class="btn-secondary">
+            Scan for Free
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-up" id="stats">
+      <div class="stats-container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number">30th</span>
+            <span class="stat-label">Release Date</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1</span>
+            <span class="stat-label">No. of Developers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features fade-up" id="features">
+      <div class="features-container">
+        <div class="section-header">
+          <h2 class="section-title">Core Tech</h2>
+          <p class="section-subtitle">
+            Technologies used in the creation of the Official VUDRA
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>FastAPI</h3>
+            <p>
+              FastAPI is a high-performance Python web framework for building
+              RESTful APIs, using Python type hints for automatic data
+              validation, serialization, and interactive API documentation.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔮</div>
+            <h3>CrewAI</h3>
+            <p>
+              CrewAI is a Python framework for building and orchestrating
+              multiple AI agents that collaborate to complete complex tasks
+              autonomously.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>SUPABASE</h3>
+            <p>
+              Supabase is an open-source Backend-as-a-Service (BaaS) platform
+              that provides a PostgreSQL database, authentication, real-time
+              features, storage, and APIs for building modern applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing fade-up" id="pricing">
+      <div class="pricing-container">
+        <div class="section-header">
+          <h2 class="section-title">Access Levels</h2>
+          <p class="section-subtitle">
+            Choose your gateway to the land of scanning
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="plan-name">Month</div>
+            <div class="plan-price">₦3,000</div>
+            <div class="plan-period">per month</div>
+          </div>
+
+          <div class="pricing-card">
+            <div class="plan-name">3-Month</div>
+            <div class="plan-price">₦9,000</div>
+            <div class="plan-period">per every three months</div>
+          </div>
+
+          <div class="pricing-card">
+            <div class="plan-name">Year</div>
+            <div class="plan-price">₦36,000</div>
+            <div class="plan-period">per year</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact fade-up" id="contact">
+      <div class="contact-container">
+        <div class="section-header">
+          <h2 class="section-title">Initialize Scanning</h2>
+          <p class="section-subtitle">
+            Supply your GitHub link for Vulnerability Scanning
+          </p>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Upload Your File</label>
+              <input
+                type="file"
+                id="fileInput"
+                accept="
+                .c,.cpp,.h,.hpp,
+                .cs,
+                .java,
+                .kt,
+                .py,
+                .js,.mjs,.cjs,
+                .ts,.tsx,
+                .jsx,
+                .html,.htm,
+                .css,
+                .php,
+                .go,
+                .rs,
+                .swift,
+                .rb,
+                .dart,
+                .lua,
+                .r,
+                .sql,
+                .sh,
+                .ps1,
+                .json,
+                .xml,
+                .yaml,.yml,
+                .toml,
+                .env,
+                .md,
+                .txt
+                "
+                required
+              />
+            </div>
+            <p id="output" class="section-output">Awaiting orders...</p>
+
+            <!-- <button type="submit" class="btn-primary btn-submit">
+              Begin Scanning
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-bottom">
+          <p>&copy; 2025 DivisionOne. All realities reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="templatemo-nexus-scripts.js"></script>
+  </body>
+</html>
